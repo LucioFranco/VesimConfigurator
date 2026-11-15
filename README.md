@@ -12,6 +12,14 @@ Run: `Vesim Configurator.bat`, or `pythonw vesim_configurator.py <path to Orbite
 Needs Python 3 with Tkinter. Writes `<CSM|LM> - <device>.launchpad.cfg` into
 `Config/ProjectApollo/Vesim`. All inputs are built into the tool, so no shipped files are required.
 
+![Mappings tab: every Vesim input listed, with a tip for the rotation/translation toggle](docs/mappings.png)
+
+*Mappings tab: every input is listed even when no file exists yet. Pick a row, then press Listen and move or press the control to bind it. Context tips explain the single-stick toggle setup.*
+
+![Live monitor tab showing axes and buttons of the connected stick](docs/live-monitor.png)
+
+*Live monitor: wiggle a control to see which axis or button number it is.*
+
 ## One stick for rotation AND translation (with a toggle button)
 
 Vesim reads the controllers differently depending on the Orbiter attitude mode:
